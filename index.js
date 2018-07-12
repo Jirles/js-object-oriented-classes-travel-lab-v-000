@@ -42,7 +42,7 @@ class Route {
     if (peakHours){
       return blocks % 2;
     } else {
-
+      return blocks % 3;
     }
   };
 };
