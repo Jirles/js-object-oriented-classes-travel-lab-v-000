@@ -14,6 +14,6 @@ class Route {
     this.endLocation = endLocation;
   };
   blocksTravelled(){
-
+    // need to add together the horizontal and vertical 
   };
 };
