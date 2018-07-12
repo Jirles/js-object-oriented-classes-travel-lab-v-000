@@ -37,7 +37,7 @@ class Route {
     return verticalBlocks + horizontalBlocks;
   };
 
-  estimatedTime{
-    
+  estimatedTime() {
+
   };
 };
