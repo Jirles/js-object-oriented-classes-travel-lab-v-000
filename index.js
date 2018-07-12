@@ -29,7 +29,7 @@ class Route {
       "Broadway",
       "West End",
       "Riverside Drive"
-    ]
+    ];
     // need to add together the horizontal and vertical
   };
 };
