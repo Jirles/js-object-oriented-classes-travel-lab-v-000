@@ -32,7 +32,7 @@ class Route {
     ];
     // need to add together the horizontal and vertical
     debugger
-    const horizontalBlocks = northSouthStreetsManhattan.indexOf(this.startLocation.horizontal) - northSouthStreetsManhattan.indexOf(this.endLocation.horizontal);
+    const horizontalBlocks = Math.abs(northSouthStreetsManhattan.indexOf(this.startLocation.horizontal) - northSouthStreetsManhattan.indexOf(this.endLocation.horizontal));
     const verticalBlocks = this.startLocation.vertical - this.endLocation.vertical;
 
     return verticalBlocks + horizontalBlocks;
