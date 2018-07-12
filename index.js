@@ -31,7 +31,6 @@ class Route {
       "Riverside Drive"
     ];
     // need to add together the horizontal and vertical
-    debugger
     const horizontalBlocks = Math.abs(northSouthStreetsManhattan.indexOf(this.startLocation.horizontal) - northSouthStreetsManhattan.indexOf(this.endLocation.horizontal));
     const verticalBlocks = Math.abs(this.startLocation.vertical - this.endLocation.vertical);
 
