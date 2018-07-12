@@ -37,7 +37,12 @@ class Route {
     return verticalBlocks + horizontalBlocks;
   };
 
-  estimatedTime() {
+  estimatedTime(peakHours = false) {
+    const blocks = blocksTravelled();
+    if (peakHours){
 
+    } else {
+
+    }
   };
 };
