@@ -14,6 +14,22 @@ class Route {
     this.endLocation = endLocation;
   };
   blocksTravelled(){
-    // need to add together the horizontal and vertical 
+    const northSouthStreetsManhattan = [
+      "York",
+      "1st Avenue",
+      "2nd Avenue",
+      "3rd Avenue",
+      "Lexington",
+      "Park",
+      "Madison",
+      "5th Avenue",
+      "Central Park West",
+      "Columbus",
+      "Amsterdam",
+      "Broadway",
+      "West End",
+      "Riverside Drive"
+    ]
+    // need to add together the horizontal and vertical
   };
 };
