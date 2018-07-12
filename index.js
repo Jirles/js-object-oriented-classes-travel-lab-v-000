@@ -32,5 +32,6 @@ class Route {
     ];
     // need to add together the horizontal and vertical
     const horizontalBlocks = northSouthStreetsManhattan.indexOf(this.startLocation.horizontal) - northSouthStreetsManhattan.indexOf(this.endLocation.horizontal);
+    
   };
 };
