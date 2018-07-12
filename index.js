@@ -12,5 +12,8 @@ class Route {
   constructor(startLocation, endLocation){
     this.startLocation = startLocation;
     this.endLocation = endLocation;
-  }
+  };
+  blocksTravelled(){
+
+  };
 };
